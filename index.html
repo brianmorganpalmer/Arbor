@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arbor Project</title>
+</head>
+<body>
+<h3>Candidate project to evaluate Cas13d crRNA processing</h3>
+<a href="./Arbor_Comp_Bio_Exercise-1_v2.pdf" target="_blank">Arbor_Comp_Bio_Exercise-1_v2.pdf</a>
+
+
+<h4>Download paired end fastq RNAseq data for SRR6800317 and SRR6800318</h4>
+<ul>
+    <li><a href="./SRR6800317_1.fastq" target="_blank">SRR6800317_1.fastq</a></li>
+    <li><a href="./SRR6800317_2.fastq" target="_blank">SRR6800317_2.fastq</a></li>
+    <li><a href="./SRR6800318_1.fastq" target="_blank">SRR6800318_1.fastq</a></li>
+    <li><a href="./SRR6800318_2.fastq" target="_blank">SRR6800318_2.fastq</a></li>
+</ul>
+
+<h4>Format and Align files</h4>
+<ol start="2">
+    <li><a href="./SeqNameMatch.txt" target="_blank">SeqNameMatch.py</a></li>
+    <p>Output</p>
+    <p>Execution complete for SRR6800317<br>
+    Record Ids are the same<br>
+    250000  - Records processed<br><br>
+    Execution complete for SRR6800318<br>
+    Record Ids are the same<br>
+    250000  - Records processed<br>
+    Process finished with exit code 0</p>
+</ol>
+
+<ol start="3">
+    <p><b>Trim R1 and R2 reads to the first 30bp and discard reads with quality less than 30</b></p>
+    <li><a href="./FormatSequences.txt" target="_blank">FormatSequences.py</a></li>
+    <p>Output</p>
+    <p>Execution complete - SRR6800317_1<br>
+        107456  - Records processed<br>
+        Execution complete - SRR6800317_2<br>
+        109986  - Records processed<br>
+        Execution complete - SRR6800318_1<br>
+        110358  - Records processed<br>
+        Execution complete - SRR6800318_2<br>
+        110999  - Records processed</p>
+</ol>
+
+    <ul>
+        <p><b>Write modified sequences to new files</b></p>
+        <li><a href="./New_SRR6800317_1.fastq" target="_blank">New_SRR6800317_1.fastq</a></li>
+        <li><a href="./New_SRR6800317_2.fastq" target="_blank">New_SRR6800317_2.fastq</a></li>
+        <li><a href="./New_SRR6800318_1.fastq" target="_blank">New_SRR6800318_1.fastq</a></li>
+        <li><a href="./New_SRR6800318_2.fastq" target="_blank">New_SRR6800318_2.fastq</a></li>
+    </ul>
+
+
+</body>
+
+<footer>
+
+</footer>
+</html>
